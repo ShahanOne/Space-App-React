@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from 'react-router-dom';
-import commanderImg from "../crew/image-douglas-hurley.png"
-
+import commanderImg from "../crew/image-douglas-hurley.png";
 
 function Commander() {
     const location = useLocation();
