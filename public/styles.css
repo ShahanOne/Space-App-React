@@ -246,33 +246,43 @@ body{
     body{
       width: 100%;
       height: 100%;
-      overflow-y: scroll;
     }
 
 
     /* HOME */
     .home-body{
-    background-image: url("home/background-home-mobile.jpg");
+    background-image: url("home/ll.jpg");
+    background-position: center;
 
     }
 
     .home-main{
       text-align: center;
+      height: 100%;
+      margin-right: 5%;
     }
     .home-btn{
-      position: absolute;
-      top: 90%;
-      right: 40%;
+      position: relative;
+      left: .01%;
+      background-color: #04293A;
+      border-color: #889EAF;
       width: auto;
       height: 120px;
       margin-top: 2%;
       border-radius: 80%;
     }
-
-
+    .home-btn a {
+      text-decoration: none;
+        color: #6b8e9c;
+    }
+    .home-btn a:active {
+      text-decoration: none;
+        color: #FBF4E9;
+    }
    /* TECHNOLOGY */
     .technology-home{
       background-image: url("technology/background-technology-mobile.jpg");
+      background-position: center;
     }
 
     .technology-img{
@@ -282,10 +292,12 @@ body{
    /* CREW */
     .crew-home{
       background-image: url("crew/background-crew-mobile.jpg");
+      background-position: center;
     }
      /* DESTINATION */
     .destination-body{
       background-image: url("destination/background-destination-mobile.jpg");
+      background-position: center;
     }
   }
  

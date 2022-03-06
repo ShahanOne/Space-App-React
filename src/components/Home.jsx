@@ -10,15 +10,13 @@ function Home() {
   <p> GENUINELY GO TO OUTER SPACE AND NOT HOVE KIND OF ON THE </p>
   <p>EDGE OF IT. WELL SIT BACK, AND RELAX BECAUSE WE'LL GIVE YOU </p>
   <p>A TRULY OUT OF THIS WORLD EXPERIENCE!</p>
+  <br/>
   <button type="button" className="btn home-btn btn-light" name="button"><Link to="/destination">EXPLORE</Link></button>
 </div>
 <br/>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-
 </div>
 }
 

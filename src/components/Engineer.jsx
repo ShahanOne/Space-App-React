@@ -29,9 +29,6 @@ function Engineer() {
   <div className="crew-img-column col-lg-6">
     <img className="crew-img" src={engineerImg}/>
   </div>
-
-
-
 </div>
 
 </div>
