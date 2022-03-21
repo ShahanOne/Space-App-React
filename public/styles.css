@@ -282,7 +282,6 @@ body{
    /* TECHNOLOGY */
     .technology-home{
       background-image: url("technology/green.jpg");
-      background-position: center;
     }
 
     .technology-img{
@@ -297,7 +296,6 @@ body{
      /* DESTINATION */
     .destination-body{
       background-image: url("destination/nut.jpg");
-      background-position: center;
       color:#B2B1B9;
     }
     .destination-btn a{
