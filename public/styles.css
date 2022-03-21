@@ -251,7 +251,7 @@ body{
 
     /* HOME */
     .home-body{
-    background-image: url("home/ll.jpg");
+    background-image: url("home/u.jpg");
     background-position: center;
 
     }
@@ -281,7 +281,7 @@ body{
     }
    /* TECHNOLOGY */
     .technology-home{
-      background-image: url("technology/background-technology-mobile.jpg");
+      background-image: url("technology/green.jpg");
       background-position: center;
     }
 
@@ -291,13 +291,17 @@ body{
     }
    /* CREW */
     .crew-home{
-      background-image: url("crew/background-crew-mobile.jpg");
+      background-image: url("crew/lool.jpg");
       background-position: center;
     }
      /* DESTINATION */
     .destination-body{
-      background-image: url("destination/background-destination-mobile.jpg");
+      background-image: url("destination/nut.jpg");
       background-position: center;
+      color:#B2B1B9;
+    }
+    .destination-btn a{
+      color: #6A5495;
     }
   }
  
