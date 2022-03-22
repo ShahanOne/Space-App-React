@@ -11,7 +11,7 @@ function Home() {
   <p>EDGE OF IT. WELL SIT BACK, AND RELAX BECAUSE WE'LL GIVE YOU </p>
   <p>A TRULY OUT OF THIS WORLD EXPERIENCE!</p>
   <br/>
-  <button type="button" className="btn home-btn btn-light" name="button"><Link to="/destination">EXPLORE</Link></button>
+  <button type="button" className="btn home-btn btn-light" name="button"><Link to="/destination" className="explore">EXPLORE</Link></button>
 </div>
 <br/>
 <br/>
