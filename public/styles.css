@@ -221,7 +221,7 @@ body{
     position: relative;
     left: 6%;
   }
-  
+
    .technology-a{
     color: #fff;
     text-decoration: none;
@@ -242,7 +242,7 @@ body{
   
   /*  Phone */
 
-  @media (max-width:480px) { 
+  @media (max-width:1000px) { 
     body{
       width: 100%;
       height: 100%;
@@ -251,8 +251,8 @@ body{
 
     /* HOME */
     .home-body{
-    background-image: url("home/u.jpg");
-    background-position: center;
+    background-image: url("home/planet.jpg");
+    background-position:inherit;
 
     }
 
@@ -260,12 +260,15 @@ body{
       text-align: center;
       height: 100%;
       margin-right: 5%;
+      margin-left: 5%;
+      color: #B7CADB;
+      font-size: 1.1rem;
     }
     .home-btn{
       position: relative;
       left: .01%;
-      background-color: #04293A;
-      border-color: #889EAF;
+      background-color: #fff;
+      border-color: #fff;
       width: auto;
       height: 120px;
       margin-top: 2%;
@@ -273,19 +276,32 @@ body{
     }
     .home-btn a {
       text-decoration: none;
-        color: #6b8e9c;
+        color: #091353;
     }
     .home-btn a:active {
       text-decoration: none;
-        color: #FBF4E9;
+        color: #000;
     }
    /* TECHNOLOGY */
     .technology-home{
       background-image: url("technology/green.jpg");
+      text-align: center;
+    }
+    .technology-number{
+      padding-left: 0;
+    }
+    .technology-btn-row{
+      display: flex;
+      padding-left: 18%;
+    }
+    .technology-btn{
+      width: 3rem;
+      margin: 0 0 25% 25%;
     }
 
+
     .technology-img{
-      width: 85%;
+      width: 95%;
 
     }
    /* CREW */
@@ -295,8 +311,16 @@ body{
     }
      /* DESTINATION */
     .destination-body{
-      background-image: url("destination/nut.jpg");
+      background-image: url("destination/violet.jpg");
       color:#B2B1B9;
+    }
+    .destination-img-column{
+      text-align: center;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .destination-content-column{
+      text-align: center;
     }
     .destination-btn a{
       color: #6A5495;
@@ -305,10 +329,10 @@ body{
  
   /* Tablet */
   
-  @media (min-width: 481px) and (max-width: 770px) {
+  /* @media (min-width: 481px) and (max-width: 770px) { */
 
     /* HOME */
-    .home-body{
+    /* .home-body{
       background-image: url("home/background-home-tablet.jpg");
     }
     .home-main{
@@ -322,24 +346,24 @@ body{
       height: 120px;
       margin-top: 2%;
       border-radius: 80%;
-    }
+    } */
 
 
     /* TECHNOLOGY */
-    .technology-home{
+    /* .technology-home{
       background-image: url("technology/background-technology-tablet.jpg");
     }
 
     .technology-img{
       width: 85%;
 
-    }
+    } */
     /* CREW */
-    .crew-home{
+    /* .crew-home{
       background-image: url("crew/background-crew-tablet.jpg");
-    }
+    } */
     /* DESTINATION */
-    .destination-body{
+    /* .destination-body{
       background-image: url("destination/background-destination-tablet.jpg");
-    }
-  }
+    } */
+  /* } */

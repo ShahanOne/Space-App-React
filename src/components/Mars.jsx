@@ -13,7 +13,7 @@ function Mars() {
      <img className="destination-img" src={marsImg} alt="mars-img"/>
   </div>
 
-  <div className="content-column col-lg-6">
+  <div className="destination-content-column col-lg-6">
     <div className="nav-buttons">
     <button style={{"paddingLeft":"0"}} className="btn destination-btn" type="button"><Link to="/destination">MOON</Link></button>
       <button className="btn destination-btn" type="button"> <Link to="/destination/mars">MARS</Link> </button>

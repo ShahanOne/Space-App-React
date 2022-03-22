@@ -10,8 +10,8 @@ function Tablet() {
 <div className="row main-row">
   <div className="technology-content-column col-lg-6 row">
     <div className="technology-btn-row col-lg-3">
-    <Link className="technology-a" to="/technology"><button className="btn technology-btn btn-light" type="button">1</button></Link>
-      <Link className="technology-a" to="/technology/vehicle"><button className="btn technology-btn btn-light" type="button">2</button></Link>
+    <Link className="technology-a" to="/technology"><button className="btn technology-btn btn-light" type="button" style={{"margin-right":"10px"}}>1</button></Link>
+      <Link className="technology-a" to="/technology/vehicle"><button className="btn technology-btn btn-light" type="button" style={{"margin-right":"12px"}}>2</button></Link>
       <Link className="technology-a" to="/technology/tablet"><button className="btn technology-btn btn-light" type="button">3</button></Link>
     </div>
 
