@@ -15,7 +15,7 @@ function Tablet() {
       <Link className="technology-a" to="/technology/tablet"><button className="btn technology-btn btn-light" type="button">3</button></Link>
     </div>
 
-    <div className="content col-lg-9">
+    <div className="technology-content col-lg-9">
       <h5>THE TERMINOLOGY...</h5>
       <h1 className="technology-name">SPACEPORT</h1>
       <p className="technology-description">A spaceport or cosmodrome is a site for launching (or receiving) spacecraft,</p>

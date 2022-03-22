@@ -286,9 +286,20 @@ body{
     .technology-home{
       background-image: url("technology/green.jpg");
       text-align: center;
+      /* font-size: 1.4rem; */
     }
     .technology-number{
       padding-left: 0;
+    }
+    .technology-name{
+      padding-bottom: 6%;
+    }
+    .technology-content-column{
+      padding-right: 0;
+    }
+    .technology-content{
+      padding-right: 0;
+      margin-top: 4%;
     }
     .technology-btn-row{
       display: flex;
@@ -301,6 +312,7 @@ body{
 
 
     .technology-img{
+      padding-top: 4%;
       width: 95%;
 
     }
